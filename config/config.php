@@ -13,7 +13,7 @@ if(mysqli_connect_errno()){
 
 // fungsi base_url
 function base_url($url = null){
-    $base_url = "http://localhost/Klp3_ProjectWeb";
+    $base_url = "http://localhost/Absentest";
     if($url != null){
         return $base_url."/".$url;
     }
